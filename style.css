@@ -47,6 +47,9 @@ h5{
     font-family: 'Montserrat', sans-serif;
     margin-top: 5px;
 }
+.mtn{
+    width: 40vw;
+}
 .topcloud{
     position: absolute;
     top: 50px;
