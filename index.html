@@ -111,7 +111,21 @@
           <h2>Get In Touch</h2>
           <h3>It's never a bad idea to stay connected.</h3>
           <p class="contactline">Feel free to reach out to me at my mail or any other platform.</p>
-          <a class="btn" href="mailto:vardhaman0077@gmail.com">CONTACT ME</a>
+          <a class="btn" href="mailto:vardhaman0077@gmail.com">Contact Via Email</a>
+          <button id="openFormBtn" class="btn">Open Contact Form</button>
+          <div id="contactModal" class="modal">
+            <div class="modal-content">
+                <span id="closeFormBtn" class="close">&times;</span>
+                <h2>Contact Me</h2>
+                <form id="contact-form">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                    <p id="form-message" style="display: none;"></p>
+                </form>
+            </div>
+        </div>
         </div>
       </div>
       
@@ -121,8 +135,10 @@
         <a class="footer-link" href="https://twitter.com/Vardhaman2203">Twitter</a>
         <a class="footer-link" href="https://www.instagram.com/vardhaman2/">Socials</a>
         <p class="endname">© Vardhaman Jain.</p>
+        <button id="scrollTopBtn">↑</button>
       </div>
       
+      <script src="script.js"></script>
     
 </body>
 </html>
